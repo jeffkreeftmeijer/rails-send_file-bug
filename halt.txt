@@ -1,0 +1,1 @@
+ApplicationController#halt_and_send_file
