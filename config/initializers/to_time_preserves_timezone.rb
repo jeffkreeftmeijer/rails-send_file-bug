@@ -5,6 +5,3 @@
 # when converting to an instance of `Time` instead of the previous behavior
 # of converting to the local system timezone.
 #
-# Rails 5.0 introduced this config option so that apps made with earlier
-# versions of Rails are not affected when upgrading.
-ActiveSupport.to_time_preserves_timezone = true
